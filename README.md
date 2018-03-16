@@ -7,20 +7,27 @@
 |key|value|
 |---|-----|
 |Name|阿部俊幸(Toshiyuki Abe)|
+|Blog|[toshi.click](https://toshi.click/)|
 |Twitter|[@toshi_click](https://twitter.com/toshi_click)|
 |GitHub|[toshi_click \(toshi-click\)](https://github.com/toshi-click)|
+|GitLab|[toshi-click](https://gitlab.com/toshi-click)|
+|Facebook|[click.toshi.3](https://www.facebook.com/click.toshi.3)|
+|Google+|[阿部俊幸](https://plus.google.com/115987806831277972844)|
+|LinkedIn|[toshiyuki](https://www.linkedin.com/in/toshiyuki-abe-78bb37142/)|
+|Wantedly|[阿部俊幸](https://www.wantedly.com/users/18247131)|
+|Qiita|[toshi-click](https://qiita.com/toshi-click)|
 
 ## スキル
 
 ### 言語
 - Java
+- Kotlin
 - PHP
 - 日本語
   - ネイティブ
 
 ### フレームワーク
 - Fuel PHP  
-
 
 ## 職務経歴
 ### 株式会社カタリストシステム(正社員: 2013/10〜)
@@ -33,13 +40,12 @@
 
 ### プログラミング / IT
 
-- Java(3年くらい)
-- PHP(3年くらい)
-- Android(2年くらい)
+- Java(3年)
+- Kotlin(1年)
+- PHP(4年)
+- Android(3年)
 
 ## やったことはないが興味があるもの
-
-- TenserFlow
 
 ## 心がけていること
 
