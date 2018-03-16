@@ -56,9 +56,38 @@
 // TODO?
 
 ## 職務経歴
+---
 ### 株式会社カタリストシステム(正社員: 2013/10〜)
-職務: Webアプリケーションエンジニア（サーバーサイドエンジニア）、Androidエンジニア、社内インフラ構築・運用  
+#### 職種
+- Webアプリケーションエンジニア
+- Android アプリエンジニア
+- インフラ・ネットワークエンジニア
+- 社内SE
 
+#### 役割
+- インフラリーダー
+- Androidアプリリーダー
+
+#### チーム
+- 開発チーム人数: 2～6人
+
+#### 開発環境
+- 言語：PHP、Java、Kotlin、JavaScript
+- OS：CentOS、Debian、Ubuntu
+- IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS、等
+- PaaS：GCP AppEngine、AWS Lambda、等
+- SaaS：AWS S3、CloudWatch、GoogleApps、等
+
+#### 概要
+社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。
+MVP、Clean Architecture、MVVM、Flux等をへてFluxで開発中。
+
+インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。
+
+最新のプロジェクトではCIで自動リリースなどを行なっています。
+
+#### 詳細
+---
 ### 日本情報産業株式会社(正社員: 2008/4〜2013/9)(5年5ヶ月)
 #### 職種
 - サーバーオペレーター
@@ -85,3 +114,4 @@
 - 障害発生時の１次切り分け、既知の障害時の対応業務。
 - サーバーの設定変更等の運営業務。
 - Excel VBAとAccessを使用しての業務アプリ作成。
+---
