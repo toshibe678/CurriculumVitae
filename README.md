@@ -20,6 +20,8 @@
 |LinkedIn|[toshiyuki](https://www.linkedin.com/in/toshiyuki-abe-78bb37142/)|
 |Wantedly|[阿部俊幸](https://www.wantedly.com/users/18247131)|
 |Qiita|[toshi-click](https://qiita.com/toshi-click)|
+|Lancers|[ToshiyukiAbe](https://www.lancers.jp/profile/toshi1986)|
+|CrowdWorks|[ToshiyukiAbe](https://crowdworks.jp/public/employees/756845/resumes#resumes)|
 
 ## スキル
 
