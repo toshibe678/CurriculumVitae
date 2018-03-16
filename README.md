@@ -3,10 +3,14 @@
 ![](sighure_icon.jpg)
 
 ## 基本情報
-
 |key|value|
 |---|-----|
 |Name|阿部俊幸(Toshiyuki Abe)|
+|性別|男|
+
+### SNS
+|key|value|
+|---|-----|
 |Blog|[toshi.click](https://toshi.click/)|
 |Twitter|[@toshi_click](https://twitter.com/toshi_click)|
 |GitHub|[toshi_click \(toshi-click\)](https://github.com/toshi-click)|
