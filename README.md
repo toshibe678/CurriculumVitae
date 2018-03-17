@@ -86,7 +86,38 @@ MVP、Clean Architecture、MVVM、Flux等をへてFluxで開発中。
 
 最新のプロジェクトではCIで自動リリースなどを行なっています。
 
+# 経験業務詳細
+### 配車アプリの開発（2017年9月～2018年6月（予定））
+#### 概要
+- B2B2Cアプリ
+- アプリ利用者が配車を予約出来る。
+- アプリ・管理画面で業者とマッチングする
+#### 職種
+- Android アプリエンジニア
+- Webアプリケーションエンジニア
+- インフラ・ネットワークエンジニア
+#### 役割
+- Androidアプリリーダー
+- WEB 管理画面・API開発メンバー
+- インフラリーダー
+#### チーム
+- 3人
+#### 使用技術
+- Docker
+- Docker Compose
+- Ansible
+- AWS EC2、RDS、ElastiCache、CloudWatch
+- GCP Maps API、Firebase Real Time Database、Fablic
+- サーバー
+  - CentOS7
+  - PHP7
+    - 自社製の独自フレームワーク(非公開) 
+  - postgresql
+  - Apache Http
+  - Redis
 #### 詳細
+開発中
+
 ---
 ---
 ---
