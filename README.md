@@ -1,7 +1,5 @@
 # 職務経歴書
 
-![](sighure_icon.jpg)
-
 ## 基本情報
 |key|value|
 |---|-----|
@@ -16,7 +14,6 @@
 |GitHub|[toshi_click \(toshi-click\)](https://github.com/toshi-click)|
 |GitLab|[toshi-click](https://gitlab.com/toshi-click)|
 |Facebook|[click.toshi.3](https://www.facebook.com/click.toshi.3)|
-|Google+|[阿部俊幸](https://plus.google.com/115987806831277972844)|
 |LinkedIn|[toshiyuki](https://www.linkedin.com/in/toshiyuki-abe-78bb37142/)|
 |Wantedly|[阿部俊幸](https://www.wantedly.com/users/18247131)|
 |Qiita|[toshi-click](https://qiita.com/toshi-click)|
@@ -32,7 +29,7 @@
 ### プログラミング / IT
 - Java(3年)
 - Kotlin(1年)
-- PHP(4年)
+- PHP(5年)
 - Android(3年)
 - JavaScript(2年)
 
@@ -42,6 +39,7 @@
 
 
 ## 資格
+ - 情報処理安全確保支援士(2018年4月)
  - 情報セキュリティスペシャリスト(2015年10月) 
  - 応用情報技術者(2012年10月)
  - ITIL V3 Foundation(2010年9月)
@@ -72,7 +70,7 @@
 - 開発チーム人数: 2～6人
 
 #### 開発環境
-- 言語：PHP、Java、Kotlin、JavaScript
+- 言語：PHP、Java、Kotlin、JavaScript(jQuery、React、React Native）
 - OS：CentOS、Debian、Ubuntu
 - IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS
 - AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB
@@ -80,18 +78,21 @@
 
 #### 概要
 社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。
-MVP、Clean Architecture、MVVM、Flux等をへてFluxで開発中。
+MVP、Clean Architecture、MVVM等をへてFluxで開発中。  
+
+小規模アプリの開発のためにReact Nativeでマルチプラットフォームのアプリ開発中。
 
 インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。
 
 最新のプロジェクトではCIで自動リリースなどを行なっています。
 
 # 経験業務詳細
-### 配車アプリの開発（2017年9月～2018年6月（予定））
+### 配車アプリの開発（2017年9月～2018年11月（予定））
 #### 概要
 - B2B2Cアプリ
 - アプリ利用者が配車を予約出来る。
 - アプリ・管理画面で業者とマッチングする
+- 配車依頼したい業者と配車依頼を受けられる業者のマッチングも行う。
 #### 職種
 - Android アプリエンジニア
 - Webアプリケーションエンジニア
@@ -99,22 +100,28 @@ MVP、Clean Architecture、MVVM、Flux等をへてFluxで開発中。
 #### 役割
 - Androidアプリリーダー
 - WEB 管理画面・API開発メンバー
-- インフラリーダー
+- バックエンドリーダー
 #### チーム
 - 3人
 #### 使用技術
-- Docker
-- Docker Compose
-- Ansible
-- AWS EC2、RDS、ElastiCache、CloudWatch
-- GCP Maps API、Firebase Real Time Database、Fablic
 - サーバー
   - CentOS7
-  - PHP7
-    - 自社製の独自フレームワーク(非公開) 
   - postgresql
   - Apache Http
   - Redis
+- 使用技術
+  - Docker
+  - Docker Compose
+  - Ansible
+  - AWS EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy
+  - GCP Maps API、Firebase Real Time Database、Fablic
+  - GitLab CI/CD
+- 言語
+  - PHP7.2
+    - 自社製の独自フレームワーク(非公開) 
+  - React Native
+  - Kotlin
+  - Swift4.2
 #### 詳細
 開発中
 
