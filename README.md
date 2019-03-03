@@ -27,15 +27,20 @@
   - ネイティブ
 
 ### プログラミング / IT
-- Java(3年)
-- Kotlin(1年)
+- Java(4年)
+- Kotlin(2年)
 - PHP(5年)
-- Android(3年)
-- JavaScript(2年)
+- Android(4年)
+- JavaScript(3年)
 
 ### フレームワーク使用経験
 - PHP
   - Fuel PHP
+  - Laravel
+- Android
+  - MVP
+  - MVVM
+  - Flux
 
 
 ## 資格
@@ -60,6 +65,7 @@
 - Webアプリケーションエンジニア
 - Android アプリエンジニア
 - インフラ・ネットワークエンジニア
+- DevOpsエンジニア
 - 社内SE
 
 #### 役割
@@ -67,10 +73,10 @@
 - Androidアプリリーダー
 
 #### チーム
-- 開発チーム人数: 2～6人
+- 開発チーム人数: 1～6人
 
 #### 開発環境
-- 言語：PHP、Java、Kotlin、JavaScript(jQuery、React、React Native）
+- 言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）
 - OS：CentOS、Debian、Ubuntu
 - IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS
 - AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB
@@ -87,7 +93,7 @@ MVP、Clean Architecture、MVVM等をへてFluxで開発中。
 最新のプロジェクトではCIで自動リリースなどを行なっています。
 
 # 経験業務詳細
-### 配車アプリの開発（2017年9月～2018年11月（予定））
+### 配車アプリの開発（2017年9月～2018年12月）
 #### 概要
 - B2B2Cアプリ
 - アプリ利用者が配車を予約出来る。
@@ -123,10 +129,11 @@ MVP、Clean Architecture、MVVM等をへてFluxで開発中。
   - Kotlin
   - Swift4.2
 #### 詳細
-開発中
+ドライバーアプリリリース済み
+アプリのリリースは自動化
 
 ---
-### 不動産検索サイトのリニューアル（2016年1月～現在（開発一時停止2017年9月））
+### 不動産検索サイトのリニューアル（2016年1月～現在（開発一時停止2017年9月～2018年12月））
 #### 概要
 - 2008年に構築したサイトのリニューアル案件
 - 上場企業の主力サイトだが重いとの苦情が出てきたため全面更新する
@@ -144,15 +151,23 @@ MVP、Clean Architecture、MVVM等をへてFluxで開発中。
 - Docker
 - Docker Compose
 - Ansible
-- AWS
+- 使用技術
+  - Docker
+  - Docker Compose
+  - Ansible
+  - AWS：EC2、RDS、ElastiCache、CloudWatch、Lambda、S3
+  - GCP：Maps API
+  - GitLab CI/CD
 - サーバー
   - CentOS7
   - PHP7
     - 自社製の独自フレームワーク(非公開) 
-  - postgresql
+  - Postgresql
+  - Mysql
   - Apache Http
   - Redis
 #### 詳細
+
 
 ---
 ### 自社開発の販促用のアプリ開発（2016年6月～2016年12月）
