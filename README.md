@@ -26,22 +26,35 @@
 - 日本語
   - ネイティブ
 
-### プログラミング / IT
-- Java(4年)
-- Kotlin(2年)
-- PHP(5年)
-- Android(4年)
-- JavaScript(3年)
+### 経験言語 / IT
+- Java
+- Kotlin
+- PHP
+- Android
+- JavaScript
+- Go
+- Python
+- Ruby
+- TypeScript
 
 ### フレームワーク使用経験
 - PHP
   - Fuel PHP
-  - Laravel
+  - Laravel(独学)
 - Android
-  - MVP
-  - MVVM
-  - Flux
-
+  - ReactNative
+  - JetPack(独学)
+  - Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
+- JS
+  - React
+  - Vue(独学)
+  - jQuery
+- CSS
+  - bootstrap
+- Python
+  - Django(独学)
+- Ruby
+  - Ruby on Rails(独学)
 
 ## 資格
  - 情報処理安全確保支援士(2018年4月)
@@ -52,13 +65,10 @@
 
 ## 心がけていること
 
-// TODO?
-
-## 目標
-
-// TODO?
+自動化できそうなところは積極的に自動化しヒューマンエラーを無くす
 
 # 職務経歴
+TODO：ここはテーブルに直す
 # 株式会社カタリストシステム(正社員: 2013/10〜)
 ## 概要
 #### 職種
