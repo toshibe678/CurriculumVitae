@@ -3,24 +3,14 @@
 ## 基本情報
 |key|value|
 |---|-----|
-|Name|阿部俊幸(Toshiyuki Abe)|
+|Name|阿部俊幸(Abe Toshiyuki)|
 |性別|男|
 
-### SNS
-|key|value|
-|---|-----|
-|Blog|[toshi.click](https://toshi.click/)|
-|Twitter|[@toshi_click](https://twitter.com/toshi_click)|
-|GitHub|[toshi_click \(toshi-click\)](https://github.com/toshi-click)|
-|GitLab|[toshi-click](https://gitlab.com/toshi-click)|
-|Facebook|[click.toshi.3](https://www.facebook.com/click.toshi.3)|
-|LinkedIn|[toshiyuki](https://www.linkedin.com/in/toshiyuki-abe-78bb37142/)|
-|Wantedly|[阿部俊幸](https://www.wantedly.com/users/18247131)|
-|Qiita|[toshi-click](https://qiita.com/toshi-click)|
-|Lancers|[ToshiyukiAbe](https://www.lancers.jp/profile/toshi1986)|
-|CrowdWorks|[ToshiyukiAbe](https://crowdworks.jp/public/employees/756845/resumes#resumes)|
+## 心がけていること
 
-## スキル
+自動化できそうなところは積極的に自動化しヒューマンエラーを無くす
+
+## スキルなど
 
 ### 言語
 - 日本語
@@ -42,9 +32,10 @@
   - Fuel PHP
   - Laravel(独学)
 - Android
+  - 古臭いMVC(Android 4.xの頃の開発)
+  - Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
   - ReactNative
   - JetPack(独学)
-  - Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
 - JS
   - React
   - Vue(独学)
@@ -56,6 +47,15 @@
 - Ruby
   - Ruby on Rails(独学)
 
+### OS
+* Windows
+    * 95,98,ME,XP,Vista,8,10
+* Linux
+    * Ubuntu(自宅サーバーで利用)
+        * 8.04 ~ 18.04
+    * CentOS
+        * 6 ~ 8
+        
 ## 資格
  - 情報処理安全確保支援士(2018年4月)
  - 情報セキュリティスペシャリスト(2015年10月) 
@@ -63,14 +63,11 @@
  - ITIL V3 Foundation(2010年9月)
  - 基本情報技術者(2008年4月)
 
-## 心がけていること
-
-自動化できそうなところは積極的に自動化しヒューマンエラーを無くす
-
 # 職務経歴
-TODO：ここはテーブルに直す
-# 株式会社カタリストシステム(正社員: 2013/10〜)
 ## 概要
+## 詳細
+# 株式会社カタリストシステム(正社員: 2013/10〜)
+
 #### 職種
 - Webアプリケーションエンジニア
 - Android アプリエンジニア
@@ -391,3 +388,19 @@ Gitを導入し、仮想基盤サーバに各プロジェクト毎にVMを切り
 - サーバーの設定変更等の運営業務。
 - Excel VBAとAccessを使用しての業務アプリ作成。
 ---
+
+
+# その他
+### SNS塔
+|key|value|
+|---|-----|
+|Blog|[toshi.click](https://toshi.click/)|
+|Twitter|[@toshi_click](https://twitter.com/toshi_click)|
+|GitHub|[toshi_click \(toshi-click\)](https://github.com/toshi-click)|
+|GitLab|[toshi-click](https://gitlab.com/toshi-click)|
+|Facebook|[click.toshi.3](https://www.facebook.com/click.toshi.3)|
+|LinkedIn|[toshiyuki](https://www.linkedin.com/in/toshiyuki-abe-78bb37142/)|
+|Wantedly|[阿部俊幸](https://www.wantedly.com/users/18247131)|
+|Qiita|[toshi-click](https://qiita.com/toshi-click)|
+|Lancers|[ToshiyukiAbe](https://www.lancers.jp/profile/toshi1986)|
+|CrowdWorks|[ToshiyukiAbe](https://crowdworks.jp/public/employees/756845/resumes#resumes)|
