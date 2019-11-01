@@ -13,39 +13,39 @@
 ## スキルなど
 
 ### 言語
-- 日本語
-  - ネイティブ
+* 日本語
+    * ネイティブ
 
 ### 経験言語 / IT
-- Java
-- Kotlin
-- PHP
-- Android
-- JavaScript
-- Go
-- Python
-- Ruby
-- TypeScript
+* Java
+* Kotlin
+* PHP
+* Android
+* JavaScript
+* Go
+* Python
+* Ruby
+* TypeScript
 
 ### フレームワーク使用経験
-- PHP
-  - Fuel PHP
-  - Laravel(独学)
-- Android
-  - 古臭いMVC(Android 4.xの頃の開発)
-  - Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
-  - ReactNative
-  - JetPack(独学)
-- JS
-  - React
-  - Vue(独学)
-  - jQuery
-- CSS
-  - bootstrap
-- Python
-  - Django(独学)
-- Ruby
-  - Ruby on Rails(独学)
+* PHP
+    * Fuel PHP
+    * Laravel(独学)
+* Android
+    * 古臭いMVC(Android 4.xの頃の開発)
+    * Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
+    * ReactNative
+    * JetPack(独学)
+* JS
+    * React
+    * Vue(独学)
+    * jQuery
+* CSS
+    * bootstrap
+* Python
+    * Django(独学)
+* Ruby
+    * Ruby on Rails(独学)
 
 ### OS
 * Windows
@@ -57,11 +57,11 @@
         * 6 ~ 8
         
 ## 資格
- - 情報処理安全確保支援士(2018年4月)
- - 情報セキュリティスペシャリスト(2015年10月) 
- - 応用情報技術者(2012年10月)
- - ITIL V3 Foundation(2010年9月)
- - 基本情報技術者(2008年4月)
+* 情報処理安全確保支援士(2018年4月)
+* 情報セキュリティスペシャリスト(2015年10月) 
+* 応用情報技術者(2012年10月)
+* ITIL V3 Foundation(2010年9月)
+* 基本情報技術者(2008年4月)
 
 # 職務経歴
 ## 概要
@@ -87,43 +87,15 @@
 ## 経験業務詳細
 
 ### 配車アプリの開発（2017年9月～2018年12月）
-#### 概要
-- B2B2Cアプリ
-- アプリ利用者が配車を予約出来る。
-- アプリ・管理画面で業者とマッチングする
-- 配車依頼したい業者と配車依頼を受けられる業者のマッチングも行う。
-#### 職種
-- Android アプリエンジニア
-- Webアプリケーションエンジニア
-- インフラ・ネットワークエンジニア
-#### 役割
-- Androidアプリリーダー
-- WEB 管理画面・API開発メンバー
-- バックエンドリーダー
-#### チーム
-- 3人
-#### 使用技術
-- サーバー
-  - CentOS7
-  - postgresql
-  - Apache Http
-  - Redis
-- 使用技術
-  - Docker
-  - Docker Compose
-  - Ansible
-  - AWS EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy
-  - GCP Maps API、Firebase Real Time Database、Fablic
-  - GitLab CI/CD
-- 言語
-  - PHP7.2
-    - 自社製の独自フレームワーク(非公開) 
-  - React Native
-  - Kotlin
-  - Swift4.2
-#### 詳細
-ドライバーアプリリリース済み
-アプリのリリースは自動化
+|key|value|
+|---|-----|
+|概要|B2B2Cアプリ<br>アプリ利用者が配車を予約出来る。<br>アプリ・管理画面で業者とマッチングする<br>配車依頼したい業者と配車依頼を受けられる業者のマッチングも行う。|
+|職種|Android アプリエンジニア<br>Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
+|役割|Androidアプリリーダー<br>WEB 管理画面・API開発メンバー<br>バックエンドリーダー|
+|チーム|3人|
+|使用技術|サーバー<br>CentOS7<br>postgresql<br>Apache Http<br>Redis<br>使用技術<br>Docker<br>Docker Compose<br>Ansible<br>AWS EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy<br>GCP Maps API、Firebase Real Time Database、Fablic<br>GitLab CI/CD<br>言語<br>PHP7.2<br>自社製の独自フレームワーク(非公開) <br>React Native<br>Kotlin<br>Swift4.2|
+|詳細|TODO 詳細もっと書く<br>ドライバーアプリリリース済み<br>アプリのリリースは自動化|
+
 
 ---
 ### 不動産検索サイトのリニューアル（2016年1月～現在（開発一時停止2017年9月～2018年12月））
