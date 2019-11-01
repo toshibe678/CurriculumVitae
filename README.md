@@ -65,41 +65,27 @@
 
 # 職務経歴
 ## 概要
-## 詳細
-# 株式会社カタリストシステム(正社員: 2013/10〜)
+### 株式会社カタリストシステム
+|key|value|
+|---|-----|
+|会社名|[株式会社カタリストシステム](https://catalyst-system.jp/)|
+|待遇：期間|正社員： 2013/10月〜現在|
+|職種|Webアプリケーションエンジニア<br>Android アプリエンジニア<br>インフラ・ネットワークエンジニア<br>DevOpsエンジニア<br>社内SE|
+|役割|インフラリーダー<br>Androidアプリリーダー|
+|開発環境|言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）<br>OS：CentOS、Debian、Ubuntu<br>IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS<br>AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB<br>GCP：Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric|
+|業務内容|社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。<br>MVP、Clean Architecture、MVVM等をへてFluxで開発後JetPackへ移行。<br>小規模アプリの開発のためにReactNativeでマルチプラットフォームのアプリ開発。<br>インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。<br>CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構築などのDevOpsも推進中|
 
-#### 職種
-- Webアプリケーションエンジニア
-- Android アプリエンジニア
-- インフラ・ネットワークエンジニア
-- DevOpsエンジニア
-- 社内SE
+### 日本情報産業株式会社
+|key|value|
+|---|-----|
+|日本情報産業株式会社|正社員: 2008/4月〜2013/9月)(5年5ヶ月)|
+|職種|サーバーオペレーター<br>サーバー運営業務|
+|役割|チームリーダー<br>総チーム人数: 18人  <br>1勤務:4人程度|
+|使用技術|Excel VBA<br>Access<br>HP-UX<br>Windows Server<br>Linux<br>JP1<br>ITIL|
+|業務内容|国内大手損害保険会社でその会社様のサーバー(約2,000台)の監視業務。<br>障害発生時の１次切り分け、既知の障害時の対応業務。<br>サーバーの設定変更等の運営業務。<br>Excel VBAとAccessを使用しての業務アプリ作成。|
 
-#### 役割
-- インフラリーダー
-- Androidアプリリーダー
+## 経験業務詳細
 
-#### チーム
-- 開発チーム人数: 1～6人
-
-#### 開発環境
-- 言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）
-- OS：CentOS、Debian、Ubuntu
-- IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS
-- AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB
-- GCP：Maps API、Logging、Firebase Real Time Database、Fablic
-
-#### 概要
-社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。
-MVP、Clean Architecture、MVVM等をへてFluxで開発中。  
-
-小規模アプリの開発のためにReact Nativeでマルチプラットフォームのアプリ開発中。
-
-インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。
-
-最新のプロジェクトではCIで自動リリースなどを行なっています。
-
-# 経験業務詳細
 ### 配車アプリの開発（2017年9月～2018年12月）
 #### 概要
 - B2B2Cアプリ
@@ -361,33 +347,8 @@ Gitを導入し、仮想基盤サーバに各プロジェクト毎にVMを切り
 #### 詳細
 
 ---
-# 日本情報産業株式会社(正社員: 2008/4〜2013/9)(5年5ヶ月)
-#### 職種
-- サーバーオペレーター
-- サーバー運営業務
 
-#### 役割
-- 夜勤チームリーダー
 
-#### チーム
-- 総チーム人数: 18人
-  - 1勤務:4人程度
-
-#### 使用技術
-- Excel VBA
-- Access
-- HP-UX
-- Windows Server
-- Linux
-- JP1
-- ITIL
-
-#### 詳細
-- 国内大手損害保険会社でその会社様のサーバー(約2,000台)の監視業務。
-- 障害発生時の１次切り分け、既知の障害時の対応業務。
-- サーバーの設定変更等の運営業務。
-- Excel VBAとAccessを使用しての業務アプリ作成。
----
 
 
 # その他
