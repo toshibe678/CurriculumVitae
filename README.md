@@ -15,6 +15,8 @@
 ### 言語
 * 日本語
     * ネイティブ
+* 英語
+    * あやしい
 
 ### 経験言語 / IT
 * Java
@@ -22,7 +24,7 @@
 * PHP
 * Android
 * JavaScript
-* Go(REST API作る程度)
+* Go(REST API Server作る程度)
 * Python(数ファイル構成のスクリプトを書く程度＋Django)
 * Ruby(数ファイル構成のスクリプトを書く程度＋RoR)
 * TypeScript(JS使うプロジェクトで使った程度)
@@ -60,10 +62,12 @@
 * Windows
     * 95,98,ME,XP,Vista,8,10
 * Linux
-    * Ubuntu(自宅サーバーで利用)
+    * Ubuntu(自宅サーバー・WSL等で利用)
         * 8.04 ~ 18.04
     * CentOS
         * 6 ~ 8
+    * Kali Linux
+        * 脆弱性診断時に使用
         
 ## 資格
 * 情報処理安全確保支援士(2018年4月)
