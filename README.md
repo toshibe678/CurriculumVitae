@@ -30,14 +30,23 @@
 ### フレームワーク使用経験
 * PHP
     * Fuel PHP
+        * 宅配買取サイトを構築時に経験。
+        * 環境構築から管理画面・フロント画面等一通り担当し作成
     * Laravel(独学)
 * Android
     * 古臭いMVC(Android 4.xの頃の開発)
+        * 先輩エンジニアと2人でアプリ作成。
+        * ベース部分以外の画面作成・リリース対応・バージョンアップ対応など
     * Flux[こちらを参考にしたパターン](https://github.com/oldergod/android-architecture/tree/todo-mvi-rxjava)
+        * 業務で1人で1つのアプリ作り切る程度
+        * 配車アプリであったのでログインやAPIとの通信、json取得しての画面表示等全て
     * ReactNative
-    * JetPack(独学)
+        * 業務で複数画面の作成担当
+        * CIで自動ビルド行える環境の作成
+    * Android Architecture Components, JetPack(独学)
 * JS
     * React
+        * 顧客要望である特定の画面のみSPA的にリッチな動きが必要になったので環境構築(Webpack)から対応
     * Vue(独学)
     * jQuery
 * CSS
