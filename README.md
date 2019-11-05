@@ -116,15 +116,12 @@
 ### IX会社でのログ基板の再構築
 |key|value|
 |---|-----|
-|概要||
-|開発期間||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|概要|各ネットワーク機器から出力されるログを収集分類検知を行い適切にアラート発報するためのシステムの改修案件。|
+|開発期間|2019年5月～8月|
+|職種|インフラ・ネットワークエンジニア|
+|チーム|2人(開発メンバーとして参加)|
+|使用技術|※&nbsp;サーバー：CentOS7,Fluentd,Prometheus,Grafana<br>※&nbsp;クラウド：Google StackDriver Logging<br>※&nbsp;言語：Ruby,Go,Python|
+|詳細|syslogやSNMPを用いログをpythonスクリプトで分類検知を長年行ったため、複雑化。<br>PrometheusとAlertManagerを用いて通報、ログ全体はfluentdで収集し、追加で作成したfluentdの独自プラグインで分類後にGoogle StackDriver Loggingへ転送しビックデータ活用も可能なようにしたいという要望があり、対応しました。<br>Google StackDriver Loggingへ蓄積したログをあるパラメータで規定件数取得しSPAの画面上に表示したいという要望もあり、それはGoでAPIサーバーを作成しました。|
 
 ### 配車アプリの開発・運用
 |key|value|
