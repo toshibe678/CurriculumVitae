@@ -8,7 +8,7 @@
 
 ## 心がけていること
 
-自動化できそうなところは積極的に自動化しヒューマンエラーを無くす
+* 自動化できそうなところは積極的に自動化し手作業でのヒューマンエラーを無くし効率を向上させる
 
 ## スキルなど
 
@@ -25,8 +25,8 @@
 * Android
 * JavaScript
 * Go(REST API Server作る程度)
-* Python(数ファイル構成のスクリプトを書く程度＋Django)
-* Ruby(数ファイル構成のスクリプトを書く程度＋RoR)
+* Python(数ファイル構成のスクリプトを書く程度＋Djangoチュートリアル程度)
+* Ruby(数ファイル構成のスクリプトを書く程度＋Ruby on Railsチュートリアル程度)
 * TypeScript(JS使うプロジェクトで使った程度)
 
 ### フレームワーク使用経験
@@ -60,10 +60,10 @@
 
 ### OS
 * Windows
-    * 95,98,ME,XP,Vista,8,10
+    * 95,98,ME,XP,Vista,8,8.1,10,2003server,2008server
 * Linux
     * Ubuntu(自宅サーバー・WSL等で利用)
-        * 8.04 ~ 18.04
+        * 8.04 ~ 20.04
     * CentOS
         * 6 ~ 8
     * Kali Linux
@@ -79,20 +79,29 @@
 
 # 職務経歴
 ## 概要
+### GMOペイメントゲートウェイ株式会社
+|key|value|
+|---|-----|
+|日本情報産業株式会社|正社員: 2020年8月〜在職中|
+|職種|インフラエンジニア<br>SREエンジニア|
+|役割|未定|
+|使用技術|Java、AWS|
+|業務内容||
+
 ### 株式会社カタリストシステム
 |key|value|
 |---|-----|
 |会社名|[株式会社カタリストシステム](https://catalyst-system.jp/)|
-|待遇：期間|正社員： 2013/10月〜現在|
+|待遇：期間|正社員： 2013年10月〜2020年7月(6年9ヶ月)|
 |職種|Webアプリケーションエンジニア<br>Android アプリエンジニア<br>インフラ・ネットワークエンジニア<br>DevOpsエンジニア<br>社内SE|
 |役割|インフラリーダー<br>Androidアプリリーダー|
-|開発環境|言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）<br>OS：CentOS、Debian、Ubuntu<br>IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS<br>AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB<br>GCP：Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric|
-|業務内容|社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。<br>MVP、Clean Architecture、MVVM等をへてFluxで開発後JetPackへ移行。<br>小規模アプリの開発のためにReactNativeでマルチプラットフォームのアプリ開発。<br>インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。<br>CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構築などのDevOpsも推進中|
+|使用技術|言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）<br>OS：CentOS、Debian、Ubuntu<br>IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS<br>AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB<br>GCP：Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric|
+|業務内容|社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。<br>MVP、Clean Architecture、MVVM等をへてFluxで開発後JetPackへ移行。<br>小規模アプリの開発のためにReactNativeでマルチプラットフォームのアプリ開発。<br>インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。<br>CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構築などのDevOps環境を作成しました。|
 
 ### 日本情報産業株式会社
 |key|value|
 |---|-----|
-|日本情報産業株式会社|正社員: 2008/4月〜2013/9月)(5年5ヶ月)|
+|日本情報産業株式会社|正社員: 2008年4月〜2013年9月(5年5ヶ月)|
 |職種|サーバーオペレーター<br>サーバー運営業務|
 |役割|チームリーダー<br>総チーム人数: 18人  <br>1勤務:4人程度|
 |使用技術|Excel VBA<br>Access<br>HP-UX<br>Windows Server<br>Linux<br>JP1<br>ITIL|
@@ -104,7 +113,7 @@
 |key|value|
 |---|-----|
 |概要|NW機器の障害監視用のサーバー(約100台)の構築するためのAnsibleプレイブックの整理統合案件（客先常駐）|
-|開発期間|2019年9月～現在|
+|開発期間|2019年9月～2020年5月|
 |職種|インフラ・ネットワークエンジニア|
 |チーム|2人(開発メンバーとして参加)|
 |使用技術|※&nbsp;サーバー：CentOS7,Ansible,Nagios,munin,VMware ESXi6<br>※&nbsp;言語：Python|
@@ -137,7 +146,7 @@
 |---|-----|
 |概要|2008年に構築したサイトのリニューアル案件<br>上場企業の主力サイトだが重いとの苦情が出てきたため全面更新する<br>仕様書は無く、現在のコードから仕様を読み解く必要がある<br>DBのテーブル構成を改善し現行DBから移行する|
 |開発期間|2016年1月～2019年11月（開発一時停止2017年9月～2018年12月）|
-|運用期間|2019年8月～現在|
+|運用期間|2019年8月～2020年7月|
 |職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
 |役割|WEB 管理画面開発メンバー<br>インフラリーダー|
 |チーム|外注含め最大時10人|
@@ -159,7 +168,7 @@
 |key|value|
 |---|-----|
 |概要|Gitlabを構築・運営<br>レビュー文化の啓蒙<br>Infrastructure as Code推進<br>DevOpsの実践|
-|運用期間|2016年3月～現在も改善中|
+|運用期間|2016年3月～2020年7月|
 |職種|インフラ・ネットワークエンジニア<br>社内SE|
 |チーム|1人|
 |使用技術|CentOS7<br>Docker<br>Docker Compose<br>Ansible<br>GitLab<br>GitLab CI <br>さくらのVPS|
@@ -182,7 +191,7 @@
 |---|-----|
 |概要|2008年製のWifi機器(家庭用Wifi)のリプレース<br>EAP-TLS認証の無線LAN環境を構築しセキュリティ向上<br>FreeRadiusサーバーも構築し、証明書インストール運用を行い社内機器のセキュリティ向上を果たしました。<br>構築後もクライアント証明書の発行・失効対応等を行っています|
 |開発期間|2015年12月～2016年1月|
-|運用期間|2016年1月～現在|
+|運用期間|2016年1月～2020年7月|
 |職種|社内SE|
 |チーム|1人|
 |使用技術|Cisco　<br>FreeRadius|
@@ -203,28 +212,28 @@
 |---|-----|
 |概要|宅配買取のためのHP構築。<br><br>FuelPHPを使用してフロント画面及び管理画面の開発を行いました。<br>サーバ構築 CentOS Apache PHP Postgresql。<br>脆弱性対応等の運用も継続して実施。|
 |開発期間|2014年10月～2015年2月|
-|運用期間|2015年2月～現在|
+|運用期間|2015年2月～2020年7月|
 
 ### 権威DNSサーバの構築・運用
 |key|value|
 |---|-----|
 |概要|一定時間ごとにDNSの設定を切り替えていきたいという案件により、権威DNSサーバを2台構成で構築。<br><br>脆弱性対応等運用も行いました。|
 |開発期間|2014年4月～2014年6月|
-|運用期間|2014年6月～現在|
+|運用期間|2014年6月～2020年7月|
 
 ### メールサーバ冗長化
 |key|value|
 |---|-----|
 |概要|メールサーバが1台で運用されている案件にて、メールサーバの冗長化のためにサーバを新規で1台構築。|
 |開発期間|2014年2月～2014年3月|
-|運用期間|2014年3月～現在|
+|運用期間|2014年3月～2020年7月|
 
 ### 社内開発環境構築・運用
 |key|value|
 |---|-----|
 |概要|複数人が1つのサーバで開発し(共有ディスクにSMBでアクセス)、バージョン管理は日付を古いファイルに付ける方式。<br>サーバには複数のhttpdやPHPをインストールし、ポートによってhttpdやPHPのバージョンなど動作環境を切り替え開発を行っていた。<br>ネットワークも1つの/24に全員が所属していた。<br><br>Gitを導入し、仮想基盤サーバに各プロジェクト毎にVMを切り分けて再構築。<br>ネットワークはcisco製品を導入しVLANでアクセス制御を導入した。<br><br>社員に対して環境移行のコーチング等の他改善・運用も担当した。|
 |開発期間|2014年2月～2014年9月|
-|運用期間|2014年9月～現在|
+|運用期間|2014年9月～2020年7月|
 
 # その他
 ### SNS塔
