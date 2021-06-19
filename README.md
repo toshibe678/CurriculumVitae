@@ -92,17 +92,18 @@ SREとして改善活動をやっていきたい
 |待遇：期間|正社員： 2020年8月〜在職中|
 |職種|インフラエンジニア<br>SREエンジニア|
 |使用技術|RHEL、Docker、AWS全般、Cloudformation、Terraform、Ansible、Jenkins、NewRelic、Statuspage、OpsGenie、ElasticSearch、LogStash、Kibana、filebeat|
-|業務内容（SREとして）||
-||NewRelicの導入・管理・運用・改善(ansibleで構成管理・Terraformでダッシュボード等のコード管理)<br>SLO・SLA等の計測や見える化・アラート設定で早期対応化など。
-||OpsGenieの導入・管理・運用・改善（競合調査～選定から対応）
-||Statuspageの導入・改善（APIGW-Lambda-DynamoDBでアラート中継API構築）
-||ElasticStackでのSIME基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)<br>ログ量月間数TBのログ基盤でした。リソース問題の解決など。
-|業務内容（AWS運用管理担当として）||
-||既存の社内ID管理基盤と連携してのAWS権限の自動付与
-||社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkinsなど)
-||各サービスのAWSインフラの設計・構築・運用(Cloudformation)|
 
-.
+#### SREとしての業務概要
+* NewRelicの導入・管理・運用・改善(ansibleで構成管理・Terraformでダッシュボード等のコード管理)
+* SLO・SLA等の計測や見える化・アラート設定で早期対応化など。
+* OpsGenieの導入・管理・運用・改善（競合調査～選定から対応）
+* Statuspageの導入・改善（APIGW-Lambda-DynamoDBでアラート中継API構築）
+* ElasticStackでのSIME基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)
+    * ログ量月間数TBのログ基盤でした。リソース問題の解決など。
+#### AWS運用管理担当としての業務概要
+* 既存の社内ID管理基盤と連携してのAWS権限の自動付与
+* 社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkinsなど)
+* 各サービスのAWSインフラの設計・構築・運用(Cloudformation)|
 
 ### 株式会社カタリストシステム
 |key|value|
@@ -110,9 +111,40 @@ SREとして改善活動をやっていきたい
 |会社名|[株式会社カタリストシステム](https://catalyst-system.jp/)|
 |待遇：期間|正社員： 2013年10月〜2020年7月(6年9ヶ月)|
 |職種|Webアプリケーションエンジニア<br>Android アプリエンジニア<br>インフラ・ネットワークエンジニア<br>DevOpsエンジニア<br>社内SE|
-|役割|インフラリーダー<br>Androidアプリリーダー|
 |使用技術|言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）<br>OS：CentOS、Debian、Ubuntu<br>IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS<br>AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB<br>GCP：Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric|
-|業務内容|社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっています。<br>MVP、Clean Architecture、MVVM等をへてFluxで開発後JetPackへ移行。<br>小規模アプリの開発のためにReactNativeでマルチプラットフォームのアプリ開発。<br>インフラエンジニアとしては、Ansible及びDockerの導入を主導し、Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。<br>CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構築などのDevOps環境を作成しました。|
+#### Webアプリケーションエンジニアとしての業務概要
+主にPHPを使用して受託開発が主。  
+後年はSPAの導入でフロントはReact.jsで記述することが多かったです。
+デザインは外注であったので、出てきたデザインに合わせてといったパターンが多かったです。
+
+#### Androidアプリエンジニアとしての業務概要
+社内唯一のAndroidアプリエンジニアとして、ライブラリの選定やアーキテクチャの選定から実装まで行なっていました。  
+MVP、Clean Architecture、MVVM等をへてFluxで開発後JetPackへ移行。  
+小規模アプリの開発のためにReactNativeでマルチプラットフォームのアプリ開発。  
+
+#### インフラ・ネットワークエンジニアとしての業務概要
+社内のCisco機器の管理やWifiの管理  
+Radius認証の導入やクライアント証明書の発行でセキュリティも考慮するようにしていました。
+
+#### DevOpsエンジニアとしての業務概要
+下記DevOpsツールの導入・フォロー及びDockerの導入を主導。
+* Ansible
+* Docker
+    * Docker Compose
+    * Docker Hub
+* Git(私が導入する前は日付付きファイルでした。。。)
+    * GitHub
+        * 他社との連携用。
+        * Docker Hubと連携させDockerImageの自動生成用。
+    * GitLab
+        * 主にプロジェクト管理で使用。選定・構築・運用まで対応。
+        * GitLab CIサーバーを社内に構築しレガシーインフラについてもCI/CDの対象とした。
+
+Infrastructure as Codeを推進。DevOpsの旗振り役として導入推進。  
+CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構築などのDevOps環境を作成しました。
+
+#### 社内SEとしての業務概要
+自社HPの開発やPCなどのIT資産管理、新入社員対応や退職者対応、PCのキッティングなど。
 
 ### 日本情報産業株式会社
 |key|value|
@@ -122,7 +154,8 @@ SREとして改善活動をやっていきたい
 |職種|サーバーオペレーター<br>サーバー運営業務|
 |役割|チームリーダー<br>総チーム人数: 18人  <br>1勤務:4人程度|
 |使用技術|Excel VBA<br>Access<br>HP-UX<br>Windows Server<br>Linux<br>JP1<br>ITIL|
-|業務内容|国内大手損害保険会社でその会社様のサーバー(約2,000台)の監視業務。<br>障害発生時の１次切り分け、既知の障害時の対応業務。<br>サーバーの設定変更等の運営業務。<br>Excel VBAとAccessを使用しての業務アプリ作成。|
+#### 業務内容
+国内大手損害保険会社でその会社様のサーバー(約2,000台)の監視業務。<br>障害発生時の１次切り分け、既知の障害時の対応業務。<br>サーバーの設定変更等の運営業務。<br>Excel VBAとAccessを使用しての業務アプリ作成。|
 
 ## 経験業務詳細
 
