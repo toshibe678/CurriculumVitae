@@ -6,6 +6,12 @@
 |Name|阿部俊幸(Abe Toshiyuki)|
 |性別|男|
 
+## 3年後の目標や野望
+SREとして改善活動をやっていきたい
+
+レガシーインフラ環境のAWS移行や自動化、コンテナ移行等
+
+
 ## 心がけていること
 
 * 自動化できそうなところは積極的に自動化し手作業でのヒューマンエラーを無くし効率を向上させる
@@ -85,9 +91,18 @@
 |会社名|[GMOペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)|
 |待遇：期間|正社員： 2020年8月〜在職中|
 |職種|インフラエンジニア<br>SREエンジニア|
-|役割|未定|
-|使用技術|Java、AWS|
-|業務内容||
+|使用技術|RHEL、Docker、AWS全般、Cloudformation、Terraform、Ansible、Jenkins、NewRelic、Statuspage、OpsGenie、ElasticSearch、LogStash、Kibana、filebeat|
+|業務内容（SREとして）||
+||NewRelicの導入・管理・運用・改善(ansibleで構成管理・Terraformでダッシュボード等のコード管理)<br>SLO・SLA等の計測や見える化・アラート設定で早期対応化など。
+||OpsGenieの導入・管理・運用・改善（競合調査～選定から対応）
+||Statuspageの導入・改善（APIGW-Lambda-DynamoDBでアラート中継API構築）
+||ElasticStackでのSIME基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)<br>ログ量月間数TBのログ基盤でした。リソース問題の解決など。
+|業務内容（AWS運用管理担当として）||
+||既存の社内ID管理基盤と連携してのAWS権限の自動付与
+||社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkinsなど)
+||各サービスのAWSインフラの設計・構築・運用(Cloudformation)|
+
+.
 
 ### 株式会社カタリストシステム
 |key|value|
@@ -140,8 +155,9 @@
 |職種|Android アプリエンジニア<br>Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
 |役割|Androidアプリリーダー<br>WEB 管理画面・API開発メンバー<br>バックエンドリーダー|
 |チーム|3人|
-|使用技術|サーバー<br>CentOS7<br>postgresql<br>Apache Http<br>Redis<br>使用技術<br>Docker<br>Docker Compose<br>Ansible<br>AWS EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy<br>GCP Maps API、Firebase Real Time Database、Fablic<br>GitLab CI/CD<br>言語<br>PHP7.2<br>自社製の独自フレームワーク(非公開) <br>React Native<br>Kotlin<br>Swift4.2|
-|詳細|TODO 詳細もっと書く<br>ドライバーアプリリリース済み<br>アプリのリリースは自動化|
+|使用技術|サーバー<br>CentOS7<br>postgresql<br>Apache Http<br>Redis<br>使用技術<br>Docker<br>Docker Compose<br>Ansible<br>AWS EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy<br>GCP Maps API、Firebase Real Time Database、Fablic<br>GitLab CI/CD<br>言語<br>PHP7.2<br>Fuel PHP <br>React Native<br>Kotlin<br>Swift4.2|
+|詳細| 概要<br>スマホアプリ部分はB2Cでユーザーが車種を選んだ上で配車先、下車先をアプリ内のマップでピンを立て予約を行うような形でした。<br>WEBアプリは主にB2Bで管理画面が主となっており、ユーザーが予約した配車予約をオークション形式(時間が経つごとに価格が上がるルール)で落札した予約の管理や配車を行える車両や人員を業者ごとに登録してもらい管理を行うような物でした。<br>チーム人数は3人。プロダクトオーナーは別です。<br>スクラムで開発を行いスプリントは1週間でした。
+|私の役割|* スマホアプリ部分<br>    * クロスプラットフォーム開発として選定したReact Nativeでの開発とAndroid部分の開発です。<br>　* CI/CDで自動的にアプリをビルドし、テストプラットフォームでのテスト実行やストア公開が自動的に行えるような自動化の対応を行いました。<br>* WEBアプリ部分<br>    * 主に車両の管理やスケジュール管理部分を担当しました。<br>* インフラ部分<br>    * サービスのスケールアップを考えサーバーはAWSに設置し、負荷状況によりオートスケールされるようにしました。<br>    * インフラもAnsibleやCI/CDで自動的に構築出来るように構成し、Gitでコード管理を行えるよう作成しました。|
 
 ### 不動産検索サイトのリニューアル開発・運用
 |key|value|
@@ -152,7 +168,7 @@
 |職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
 |役割|WEB 管理画面開発メンバー<br>インフラリーダー|
 |チーム|外注含め最大時10人|
-|使用技術|Docker<br>Docker Compose<br>Ansible<br>AWS：EC2、RDS、ElastiCache、CloudWatch、Lambda、S3<br>GCP：Maps API<br>GitLab CI/CD<br>サーバー<br>CentOS7<br>PHP7<br>自社製の独自フレームワーク(非公開) <br>Postgresql<br>Mysql(旧システムがmysqlで移行用)<br>Apache Http<br>Redis|
+|使用技術|Docker<br>Docker Compose<br>Ansible<br>AWS：EC2、RDS、ElastiCache、CloudWatch、Lambda、S3<br>GCP：Maps API<br>GitLab CI/CD<br>サーバー<br>CentOS7<br>PHP7<br>Fuel PHP <br>Postgresql<br>Mysql(旧システムがmysqlで移行用)<br>Apache Http<br>Redis|
 |詳細|開発リーダーとして開発に参画当初チーム4人。<br>リニューアル案件ということだったが他社が開発したシステムの情報は頂けない中移行計画含め対応。<br>2017年9月に管理画面側を作成完了するも、お客様先都合で一時開発ストップ。<br>開発再開時には初期メンバーは私しか残っていない状況で新規に外注とインターンが1名ずつ、社員3人が追加されフロント画面および開発停止期間中に既存システム側での変更等について対応等を行い、開発終了まで開発できました。<br><br>開発停止期間が長く、再開時には新規人員にて対応を行うことになったため、レビューを行いやすくするためにマージリクエスト毎に自動でレビュー環境が立ち上がるように自動デプロイの仕組みを導入したり、自動E2Eテストを実行出来るようにしてデグレが起きにくい環境を構築しました。|
 
 ### 自社開発の販促用のアプリ開発・運用
@@ -163,7 +179,7 @@
 |職種|Android アプリエンジニア    <br>Webアプリケーションエンジニア    <br>インフラ・ネットワークエンジニア|
 |役割|Androidアプリリーダー    <br>WEBAPI開発メンバー    <br>インフラリーダー|
 |チーム|<br>全体で3人       <br>WEB専任：1人、iOS、WEB兼任：1人、Android、WEB兼任：1人|
-|使用技術|<br>Java  <br>RxJava  <br>OpenCV  <br>OkHttp-Retrofit  <br>Picasso<br>AWS<br>CentOS6  <br>PHP7    <br>自社製の独自フレームワーク(非公開)   <br>postgresql  <br>Apache Http  <br>Redis|
+|使用技術|<br>Java  <br>RxJava  <br>OpenCV  <br>OkHttp-Retrofit  <br>Picasso<br>AWS<br>CentOS6  <br>PHP7    <br>Fuel PHP  <br>postgresql  <br>Apache Http  <br>Redis|
 |詳細|Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェクトの失敗を踏まえ、非同期処理はRxJavaを使用することとし、OSSを積極利用して車輪の再発明をしないようにしました。<br><br>バックエンドAPIサーバのPHPプログラムを3人のチームで開発。  <br><br>サーバの設計・構築  <br>開発環境の開発、検証機の設計・構築、本番機の設計構築を行いました。  <br><br>PHPの開発環境は各自のPC上でVitualboxのVMを立ち上げ、ローカルで開発しGitLabでレビューを行う形式でした。  <br>検証環境は社内の仮想化基盤上に検証サーバーを構築し、検証サーバー内にsshでログインの上git pull等のコマンドで行う手作業方式としていました。  <br>本番環境はAWS EC2でRDSとElastiCacheを使用するオーソドックスな構成を構築しました。  <br><br>結局見込みのお客様に断られたため、プロジェクトは終了となりました。<br>|
 
 ### 社内開発環境改善
@@ -185,7 +201,7 @@
 |職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
 |役割|設計～構築～運用|
 |チーム|1人|
-|使用技術|さくらのクラウド<br>サーバー　<br>CentOS6　<br>PHP5.6　　<br>自社製の独自フレームワーク(非公開) 　<br>mysql　<br>Apache Http　<br>Redis|
+|使用技術|さくらのクラウド<br>サーバー　<br>CentOS6　<br>PHP5.6　　<br>Fuel PHP 　<br>mysql　<br>Apache Http　<br>Redis|
 |詳細|機能としては難しいところは特に無く、各種脆弱性チェックツールを即時もしくは指定時刻に実行し結果を表示するだけなのでWEB画面の開発は問題ありませんでした。<br><br>時間がかかったのは下記件についてプロダクトオーナーとの調整でした。<br>どの脆弱性チェックツールを使用できるようにするのか  <br>ツール実行時の詳細度についての調整  <br>実行結果の保持期限<br>サーバーのランニングコストなどの調整<br>|
 
 ### 社内無線LAN構築・運用
