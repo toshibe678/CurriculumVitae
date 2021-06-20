@@ -93,7 +93,7 @@ SREとして改善活動をやっていきたい
 |---|-----|
 |会社名|[GMOペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)|
 |待遇：期間|正社員： 2020年8月〜在職中|
-|職種|インフラエンジニア<br>SREエンジニア|
+|職種|インフラエンジニア、SREエンジニア|
 |使用技術 サーバー|RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat|
 |使用技術 クラウド|AWS(Cloudformation)<br>NewRelic、Statuspage、OpsGenie|
 |使用技術 言語|Python、NodeJs|
@@ -117,7 +117,7 @@ SREとして改善活動をやっていきたい
 |---|-----|
 |会社名|[株式会社カタリストシステム](https://catalyst-system.jp/)|
 |待遇：期間|正社員： 2013年10月〜2020年7月(6年9ヶ月)|
-|職種|Webアプリケーションエンジニア<br>Android アプリエンジニア<br>インフラ・ネットワークエンジニア<br>DevOpsエンジニア<br>社内SE|
+|職種|Webアプリケーションエンジニア、Android アプリエンジニア、インフラ・ネットワークエンジニア、DevOpsエンジニア、社内SE|
 |使用技術 サーバー|CentOS、Debian、Ubuntu|
 |使用技術 クラウド|AWS(EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB)<br>GCP（Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric）<br>ConoHa、さくらのクラウド、さくらのVPS|
 |使用技術 言語|PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native|
@@ -162,8 +162,8 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |---|-----|
 |会社名|[日本情報産業株式会社](https://www.nii.co.jp/)|
 |待遇：期間|正社員： 2008年4月〜2013年9月(5年5ヶ月)|
-|職種|サーバーオペレーター<br>サーバー運営業務|
-|役割|チームリーダー<br>総チーム人数: 18人  <br>1勤務:4人程度|
+|職種|サーバーオペレーター、サーバー運営業務|
+|役割|チームリーダー、総チーム人数: 18人、1勤務:4人程度|
 |使用技術|Excel VBA<br>Access<br>HP-UX<br>Windows Server<br>Linux<br>JP1<br>ITIL|
 #### 業務内容
 国内大手損害保険会社でその会社様のサーバー(約2,000台)の監視業務。<br>障害発生時の１次切り分け、既知の障害時の対応業務。<br>サーバーの設定変更等の運営業務。<br>Excel VBAとAccessを使用しての業務アプリ作成。
@@ -328,8 +328,8 @@ syslogやSNMPを用いログをpythonスクリプトで分類検知を長年行�
 |---|-----|
 |開発期間|2017年9月～2018年12月|
 |運用期間|2019年10月～2019年3月|
-|職種|Android アプリエンジニア<br>Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
-|役割|Androidアプリリーダー<br>WEB 管理画面・API開発メンバー<br>バックエンドリーダー|
+|職種|Android アプリエンジニア、Webアプリケーションエンジニア、インフラ・ネットワークエンジニア|
+|役割|Androidアプリリーダー、WEB 管理画面・API開発メンバー、バックエンドリーダー|
 |チーム|3人|
 |使用技術 サーバー|CentOS7、Postgresql、Apache Http、Redis、Docker、Docker Compose、Ansible、GitLab CI/CD|
 |使用技術 クラウド|AWS（EC2、RDS、ElastiCache、CloudWatch、Lambda、S3、Code Deploy）<br>GCP（GCP Maps API、Firebase Real Time Database、Fablic）|
@@ -357,8 +357,8 @@ WEBアプリは主にB2Bで管理画面が主となっており、ユーザー�
 |---|-----|
 |開発期間|2016年1月～2019年11月（開発一時停止2017年9月～2018年12月）|
 |運用期間|2019年8月～2020年7月|
-|職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
-|役割|WEB 管理画面開発メンバー<br>インフラリーダー|
+|職種|Webアプリケーションエンジニア、インフラ・ネットワークエンジニア|
+|役割|WEB 管理画面開発メンバー、インフラリーダー|
 |チーム|外注含め最大時10人|
 |使用技術 サーバー|CentOS7、Postgresql、Apache Http、Redis、Docker、Docker Compose、Ansible、GitLab CI/CD、Mysql(旧システムがmysqlで移行用)|
 |使用技術 クラウド|AWS（EC2、RDS、ElastiCache、CloudWatch、Lambda、S3）<br>GCP（Maps API）|
@@ -387,9 +387,9 @@ Google map APIを利用して徒歩時間やマップ上に物件情報を表示
 |||
 |---|-----|
 |開発期間|2016年6月～2016年12月|
-|職種|Android アプリエンジニア    <br>Webアプリケーションエンジニア    <br>インフラ・ネットワークエンジニア|
-|役割|Androidアプリリーダー    <br>WEBAPI開発メンバー    <br>インフラリーダー|
-|チーム|<br>全体で3人       <br>WEB専任：1人、iOS、WEB兼任：1人、Android、WEB兼任：1人|
+|職種|Android アプリエンジニア、Webアプリケーションエンジニア、インフラ・ネットワークエンジニア|
+|役割|Androidアプリリーダー、WEBAPI開発メンバー、インフラリーダー|
+|チーム|全体で3人<br>WEB専任：1人、iOS、WEB兼任：1人、Android、WEB兼任：1人|
 |使用技術 サーバー|CentOS6、postgresql、Apache Http、Redis|
 |使用技術 クラウド|AWS|
 |使用技術 言語|Java、RxJava、OpenCV、OkHttp-Retrofit、Picasso、PHP、Fuel PHP|
@@ -404,7 +404,7 @@ Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェ
 |---|-----|
 |開発期間|2016年3月～2016年6月|
 |運用期間|2016年6月～現在|
-|職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
+|職種|Webアプリケーションエンジニア、インフラ・ネットワークエンジニア|
 |役割|設計～構築～運用|
 |チーム|1人|
 |使用技術|さくらのクラウド、CentOS、PHP、Fuel PHP、mysql、Apache Http、Redis|
@@ -419,7 +419,7 @@ Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェ
 |---|-----|
 |開発期間|2015年3月～2016年1月|
 |運用期間|2016年1月～2016年10月|
-|職種|<br>Android アプリエンジニア    <br>Webアプリケーションエンジニア    <br>インフラ・ネットワークエンジニア|
+|職種|Android アプリエンジニア、Webアプリケーションエンジニア、インフラ・ネットワークエンジニア|
 |役割|開発メンバー|
 |チーム|4人|
 |使用技術|*&nbsp;Android：MVP(ほぼ自作)<br>*&nbsp;Web：CentOS6、Apache、PHP、Postgresql、Redis|
