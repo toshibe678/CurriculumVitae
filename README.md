@@ -94,7 +94,9 @@ SREとして改善活動をやっていきたい
 |会社名|[GMOペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)|
 |待遇：期間|正社員： 2020年8月〜在職中|
 |職種|インフラエンジニア<br>SREエンジニア|
-|使用技術|RHEL、Docker、AWS全般、Cloudformation、Terraform、Ansible、Jenkins、NewRelic、Statuspage、OpsGenie、ElasticSearch、LogStash、Kibana、filebeat|
+|使用技術 サーバー|RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat|
+|使用技術 クラウド|AWS(Cloudformation)<br>NewRelic、Statuspage、OpsGenie|
+|使用技術 言語|Python、NodeJs|
 
 ### SREとしての業務概要
 * NewRelicの導入・管理・運用・改善(ansibleで構成管理・Terraformでダッシュボード等のコード管理)
@@ -116,7 +118,9 @@ SREとして改善活動をやっていきたい
 |会社名|[株式会社カタリストシステム](https://catalyst-system.jp/)|
 |待遇：期間|正社員： 2013年10月〜2020年7月(6年9ヶ月)|
 |職種|Webアプリケーションエンジニア<br>Android アプリエンジニア<br>インフラ・ネットワークエンジニア<br>DevOpsエンジニア<br>社内SE|
-|使用技術|言語：PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native）<br>OS：CentOS、Debian、Ubuntu<br>IaaS：Amazon EC2、ConoHa、さくらのクラウド、さくらのVPS<br>AWS：EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB<br>GCP：Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric|
+|使用技術 サーバー|CentOS、Debian、Ubuntu|
+|使用技術 クラウド|AWS(EC2、RDS、ElastiCache、S3、Lambda、CloudWatch、CloudTrail、VPC、CloudFront、Route 53、AWS Auto Scaling、ELB)<br>GCP（Maps API、Logging、BigQuery、Firebase Real Time Database、Fabric）<br>ConoHa、さくらのクラウド、さくらのVPS|
+|使用技術 言語|PHP、Java、Kotlin、JavaScript(jQuery、React.js、React Native|
 ### Webアプリケーションエンジニアとしての業務概要
 主にPHPを使用して受託開発が主。  
 後年はSPAの導入でフロントはReact.jsで記述することが多かったです。
@@ -244,7 +248,8 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |運用期間|2013年9月～2020年7月|
 |職種|社内SE・ネットワークエンジニア・インフラエンジニア|
 |チーム|2人|
-|使用技術|Cisco、FreeRadius、CentOS、KVM、Docker、Docker Compose、Ansible、GitLab、GitLab CI、さくらのVPS|
+|使用技術 サーバー|CentOS、KVM、Docker、Docker Compose、Ansible、GitLab、GitLab CI、Cisco、FreeRadius|
+|使用技術 クラウド|AWS（）<br>GCP（）<br>さくらのVPS|
 #### 概要
 先輩社員と2人で業務分担しながら対応。記載しているものは私が対応したもののみとなります。
 * 社内開発環境の整備
@@ -297,7 +302,8 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |開発期間|2019年9月～2020年5月|
 |職種|インフラ・ネットワークエンジニア|
 |チーム|2人(開発メンバーとして参加)|
-|使用技術|※&nbsp;サーバー：CentOS7、Ansible、Nagios、munin、VMware ESXi6<br>※&nbsp;言語：Python|
+|使用技術 サーバー|CentOS7、Ansible、Nagios、munin、VMware ESXi6|
+|使用技術 言語|Python、Shell script|
 #### 概要
 NW機器の障害監視用のサーバー(約100台)の構築するためのAnsibleプレイブックの整理統合案件（客先常駐）
 障害監視用のサーバー構築用のAnsible及びサーバー内ソフトウェアの設定用リポジトリが複数個に分かれており、システム全体の見通しが悪いので1つに纏めるとの案件。<br>かつ更改後のAnsibleプレイブックを用いて既存の監視サーバーを更改する。<br>仮想化基盤がVmwareであったので、Terraform等を使って一度に構築できればよかったが、特殊環境のため動かず、Pythonスクリプトで操作を自動化し再構築しました。<br><br>ただただ顧客の歴史を紐解くのが大変な業務であった。
@@ -310,7 +316,9 @@ NW機器の障害監視用のサーバー(約100台)の構築するためのAnsi
 |開発期間|2019年5月～8月|
 |職種|インフラ・ネットワークエンジニア|
 |チーム|2人(開発メンバーとして参加)|
-|使用技術|※&nbsp;サーバー：CentOS7、Fluentd、Prometheus、Grafana<br>※&nbsp;クラウド：Google StackDriver Logging<br>※&nbsp;言語：Ruby、Go、Python|
+|使用技術 サーバー|CentOS7、Fluentd、Prometheus、Grafana|
+|使用技術 クラウド|Google StackDriver Logging|
+|使用技術 言語|Ruby、Go、Python|
 #### 概要
 各ネットワーク機器から出力されるログを収集分類検知を行い適切にアラート発報するためのシステムの改修案件（客先常駐）
 syslogやSNMPを用いログをpythonスクリプトで分類検知を長年行ったため、複雑化。<br>PrometheusとAlertManagerを用いて通報、ログ全体はfluentdで収集し、追加で作成したfluentdの独自プラグインで分類後にGoogle StackDriver Loggingへ転送しビックデータ活用も可能なようにしたいという要望があり、対応しました。<br>Google StackDriver Loggingへ蓄積したログをあるパラメータで規定件数取得しSPAの画面上に表示したいという要望もあり、それはGoでAPIサーバーを作成しました。
@@ -382,7 +390,9 @@ Google map APIを利用して徒歩時間やマップ上に物件情報を表示
 |職種|Android アプリエンジニア    <br>Webアプリケーションエンジニア    <br>インフラ・ネットワークエンジニア|
 |役割|Androidアプリリーダー    <br>WEBAPI開発メンバー    <br>インフラリーダー|
 |チーム|<br>全体で3人       <br>WEB専任：1人、iOS、WEB兼任：1人、Android、WEB兼任：1人|
-|使用技術|<br>Java  <br>RxJava  <br>OpenCV  <br>OkHttp-Retrofit  <br>Picasso<br>AWS<br>CentOS6  <br>PHP7    <br>Fuel PHP  <br>postgresql  <br>Apache Http  <br>Redis|
+|使用技術 サーバー|CentOS6、postgresql、Apache Http、Redis|
+|使用技術 クラウド|AWS|
+|使用技術 言語|Java、RxJava、OpenCV、OkHttp-Retrofit、Picasso、PHP、Fuel PHP|
 #### 概要
 家具の試着アプリのようなものを開発
 Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェクトの失敗を踏まえ、非同期処理はRxJavaを使用することとし、OSSを積極利用して車輪の再発明をしないようにしました。<br><br>バックエンドAPIサーバのPHPプログラムを3人のチームで開発。  <br><br>サーバの設計・構築  <br>開発環境の開発、検証機の設計・構築、本番機の設計構築を行いました。  <br><br>PHPの開発環境は各自のPC上でVitualboxのVMを立ち上げ、ローカルで開発しGitLabでレビューを行う形式でした。  <br>検証環境は社内の仮想化基盤上に検証サーバーを構築し、検証サーバー内にsshでログインの上git pull等のコマンドで行う手作業方式としていました。  <br>本番環境はAWS EC2でRDSとElastiCacheを使用するオーソドックスな構成を構築しました。  <br><br>結局見込みのお客様に断られたため、プロジェクトは終了となりました。<br>
@@ -397,7 +407,7 @@ Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェ
 |職種|Webアプリケーションエンジニア<br>インフラ・ネットワークエンジニア|
 |役割|設計～構築～運用|
 |チーム|1人|
-|使用技術|さくらのクラウド<br>サーバー　<br>CentOS6　<br>PHP5.6　　<br>Fuel PHP 　<br>mysql　<br>Apache Http　<br>Redis|
+|使用技術|さくらのクラウド、CentOS、PHP、Fuel PHP、mysql、Apache Http、Redis|
 #### 概要
 サーバーサイドのセキュリティスキャンを、スキャン対象にアクティベートファイルを設置するだけで、簡単に実行出来るようにするサービスの構築
 機能としては難しいところは特に無く、各種脆弱性チェックツールを即時もしくは指定時刻に実行し結果を表示するだけなのでWEB画面の開発は問題ありませんでした。<br><br>時間がかかったのは下記件についてプロダクトオーナーとの調整でした。<br>どの脆弱性チェックツールを使用できるようにするのか  <br>ツール実行時の詳細度についての調整  <br>実行結果の保持期限<br>サーバーのランニングコストなどの調整<br>
