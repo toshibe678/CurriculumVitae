@@ -172,13 +172,17 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 # 経験業務詳細
 ## GMOペイメントゲートウェイ株式会社
 ### NewRelicの導入・管理・運用・改善
-#### 概要
 |||
 |---|-----|
 |期間|2020年10月～|
-|職種||
+|職種|SRE|
 |チーム|1人|
-|使用技術||
+|使用技術|NewRelic、Terraform、Ansible|
+#### 概要
+前任より業務を引き継いで対応。  
+前任はIaCを特に行っていなかったので、手作業で作成したリソースが多数ありそれをTerraformを用いてコード管理行えるようにしました。  
+またオンプレミスサーバー上のNewRelicエージェントの管理のためAnsibleにてIaCしました。
+その他NewRelicを導入している主要サービスについて計測したデータの分析、自動化のソースとして活用し、主要サービスの信頼性向上に役立てました。
 
 ***
 ### OpsGenieの導入・管理・運用・改善
@@ -191,54 +195,46 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |使用技術||
 
 ***
-### Statuspageの導入・改善・運用
-#### 概要
+### Atlassian Statuspageの導入・改善・運用
 |||
 |---|-----|
 |期間|2021年03月～|
-|職種||
+|職種|SRE|
 |チーム|1人|
-|使用技術||
-
-***
-### ElasticStackでのSIME基盤の管理・運用・改善
+|使用技術|Atlassian Statuspage、Lambda、Amazon API Gateway、Amazon DynamoDB、AWS CodeBuild、Amazon Elastic Container Registry、AWS CloudFormation|
 #### 概要
-|||
-|---|-----|
-|期間|2021年04月～|
-|職種||
-|チーム|3人|
-|使用技術||
-
-***
-### AWS権限の管理運用
-#### 概要
-|||
-|---|-----|
-|期間|2020年08月～|
-|職種||
-|チーム|3人|
-|使用技術||
+一部顧客より提供主要サービスの障害連絡の迅速化を求められていたため、NewRelicのアラート発報を契機としてAtlassian Statuspageと連携し、障害連絡の迅速化を行いました。  
+Atlassian Statuspage用意のAPIをそのままNewRelicと連携するだけでは求める機能が実現できなかったため、AWS環境にLambdaバックのAPI Gateway、state管理はDynamoDBを使用してサーバーレスAPIを構築。
 
 ***
 ### 社内の開発基盤の運用・管理・改善
-#### 概要
 |||
 |---|-----|
 |期間|2021年04月～|
-|職種||
+|職種|インフラエンジニア|
 |チーム|3人|
-|使用技術||
+|使用技術|Amazon WorkSpaces、AWS CodeCommit、AWS CodeBuild、EC2、Lambda|
+#### 概要
+主にAWS上に構築した社内開発関連サーバー等の運用管理業務。
+* 協力会社の社員の作業環境としてWorkSpacesを提供しており、ベースイメージの管理や異常時の対応等を行う。
+* Git、Svn、Jenkins、Nexus、Jira、Confluence、Redmine等の開発系サーバーの運用管理
+* 各AWSアカウントへ共通環境として提供しているAWSリソースの運用管理
+
 
 ***
-### 各サービスのAWSインフラの設計・構築・運用
-#### 概要
+### 各サービスのAWSインフラの設計・構築・運用・管理
 |||
 |---|-----|
 |期間|2020年08月～|
-|職種||
+|職種|インフラエンジニア|
 |チーム|3人|
-|使用技術||
+|使用技術(管理部分)|AWS Organizations、AWS Security Hub、AWS Personal Health Dashboard、AWS CloudFormation、AWS CloudTrail、VPC、AWS Direct Connect、IAM、AWS Key Management Service、AWS Secrets Manager、Amazon Connect、Savings Plans|
+|使用技術(サービス部分)|Amazon Elastic Container Service、AWS Fargate、Amazon Elastic Container Registry、Amazon Aurora、Amazon DynamoDB、ElastiCache、Amazon Kinesis、EC2、Lambda、Amazon API Gateway、Amazon CloudFront、Amazon Route 53、Amazon VPC PrivateLink、ACM、AWS WAF、S3、AWS CodeBuild、AWS Backup、SES|
+|使用技術(運用部分)|Amazon Athena、AWS Step Functions、SNS、SQS、AWS Systems Manager、AWS CodeDeploy、AWS CodePipeline、AWS CloudShell、EventBridge|
+#### 概要
+1. プロジェクト毎などに用意する開発用、検証用、本番用など各種社内の全AWSアカウントをAWS Organizationsにて管理し、AWS Security HubやAWS Personal Health Dashboard、AWS Configを利用してセキュアで金融業界に適合したインフラ環境を社内に提供し管理・運用・改善を行いました。
+1. 各プロジェクトのAWSでの構築時にAWSインフラについてアカウント作成から各種サービス構成の構築をAWS CloudFormationを用いて自動構築出来るようにし、各アプリ開発チームと共同しインフラの運用を行いました。
+
 ***
 ## 株式会社カタリストシステム
 
