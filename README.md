@@ -68,10 +68,10 @@ SREとして改善活動をやっていきたい
 
 ### OS
 * Windows
-    * 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server
+    * 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server、2013server
 * Linux
     * Ubuntu(自宅サーバー・WSL等で利用)
-        * 8.04 ~ 20.04
+        * 8.04 ~ 21.04
     * CentOS
         * 6 ~ 8
     * Kali Linux
