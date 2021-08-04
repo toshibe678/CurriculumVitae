@@ -203,8 +203,23 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |チーム|1人|
 |使用技術|Atlassian Statuspage、Lambda、Amazon API Gateway、Amazon DynamoDB、AWS CodeBuild、Amazon Elastic Container Registry、AWS CloudFormation|
 #### 概要
-一部顧客より提供主要サービスの障害連絡の迅速化を求められていたため、NewRelicのアラート発報を契機としてAtlassian Statuspageと連携し、障害連絡の迅速化を行いました。  
-Atlassian Statuspage用意のAPIをそのままNewRelicと連携するだけでは求める機能が実現できなかったため、AWS環境にLambdaバックのAPI Gateway、state管理はDynamoDBを使用してサーバーレスAPIを構築。
+主要サービスの障害連絡の迅速化を行うため、NewRelicに設定した各種アラートにより障害の規模を自動的にAtlassian Statuspageへ連携し主要顧客へ情報を早期に提供する仕組み作り。
+
+#### 担当
+* NewRelic → API → Atlassian Statuspageの連携部分全て
+
+#### 課題
+従前は障害連絡はサポート部門が取りまとめ、各社にメール配信する形となっていましたが、取りまとめる都合上オーバーヘッドが発生しやすく顧客への迅速な障害連絡が出来ていませんでした。
+
+#### 解決
+NewRelicのアラート発報を契機としてAtlassian Statuspageと連携し、障害連絡の迅速化を行いました。  
+従来は障害発生から障害情報が顧客まで届くのに30分～1時間程度掛かっていましたが、今回の仕組みを構築することでNewRelicの監視間隔の都合もありますが5分～10分程度で障害が通知されるようになりました。  
+対象の顧客からは障害の発生が迅速に分かるようになったとのことで、構築した甲斐がありました。
+
+#### 工夫した点
+設計時にEC2などは管理が面倒ですのでサーバーレスで構築する方針とし、Atlassian Statuspage用意のAPIをそのままNewRelicと連携するだけでは求める機能が実現できなかったため、別途連携用APIを構築することになり、AWS環境にLambdaバックのAPI Gateway、state管理はDynamoDBを使用してサーバーレスAPIを構築しました。  
+AWSインフラ部分については後々のためにCloudformationで全て構築し、またLambdaについては2020年12月に発表されたばかりのDocker イメージパターンで実装し構成変更に強い仕組みとしました。  
+今回のプロジェクトは上司よりざっくり要件のみで指示されたためNewRelicのWebhook仕様やStatuspageのAPI仕様について調べながらの対応となり、Saas毎に若干異なる名称の意味などを読み解くのが大変でしたがやり遂げることが出来ました。
 
 ***
 ### 社内の開発基盤の運用・管理・改善
