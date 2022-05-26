@@ -462,11 +462,11 @@ Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェ
 |---|-----|
 |開発期間|2014年10月～2015年2月|
 |運用期間|2015年2月～2020年7月|
-|職種||
-|チーム|人|
-|使用技術||
+|職種|インフラエンジニア、バックエンドエンジニア|
+|チーム|3人|
+|使用技術|CentOS Apache PHP Postgresql|
 #### 概要
-宅配買取のためのHP構築。<br><br>FuelPHPを使用してフロント画面及び管理画面の開発を行いました。<br>サーバ構築 CentOS Apache PHP Postgresql。<br>脆弱性対応等の運用も継続して実施。
+宅配買取のためのHP構築。<br><br>FuelPHPを使用してフロント画面及び管理画面の開発を行いました。<br>脆弱性対応等の運用も継続して実施。
 
 ***
 
@@ -496,7 +496,7 @@ Androidアプリの開発を1人で担当。<br><br>以前のAndroidプロジェ
 ## SNSなど
 |||
 |---|-----|
-|[Blog](https://toshi.click/)|
+|[Blog](https://blog.toshi.click/)|
 |[Twitter](https://twitter.com/toshibe_678)|
 |[GitHub](https://github.com/toshi-click)|
 |[GitLab](https://gitlab.com/toshi-click)|
