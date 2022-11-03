@@ -27,10 +27,9 @@ SREとしてサービスの改善活動をやっていきたい
     * あやしい
 
 ### 経験言語 / IT
-* Java
+* Java(Android)
 * Kotlin
 * PHP
-* Android
 * JavaScript
 * Go(REST API Server作る程度)
 * Python(数ファイル構成のスクリプトを書く程度＋Djangoチュートリアル程度)
@@ -54,9 +53,11 @@ SREとしてサービスの改善活動をやっていきたい
         * 業務で複数画面の作成担当
         * CIで自動ビルド行える環境の作成
     * Android Architecture Components、 JetPack(独学)
-* JS
+* JavaScript
     * React
         * 顧客要望である特定の画面のみSPA的にリッチな動きが必要になったので環境構築(Webpack)から対応
+    * Next.js
+        * 個人ブログの作成で使用。
     * Vue(独学)
     * jQuery
 * CSS
@@ -172,6 +173,31 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 ***
 # 経験業務詳細
 ## GMOペイメントゲートウェイ株式会社
+
+### Github Enterprise導入
+|||
+|---|-----|
+|期間|2022年08月～|
+|職種|SRE|
+
+### 社内AD統合
+|||
+|---|-----|
+|期間|2022年10月～|
+|職種|コーポレートエンジニア|
+
+### オンプレ環境へのCI/CD環境の構築・運用・改善
+|||
+|---|-----|
+|期間|2022年06月～|
+|職種|SRE|
+
+### CDNの冗長化対応
+|||
+|---|-----|
+|期間|2022年04月～|
+|職種|SRE|
+
 ### NewRelicの導入・管理・運用・改善
 |||
 |---|-----|
@@ -189,7 +215,7 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 ### Atlassian OpsGenieの導入・管理・運用・改善
 |||
 |---|-----|
-|期間|2020年11月～|
+|期間|2020年11月～2021年12月(以降運用)|
 |職種|SRE|
 |チーム|3人|
 |使用技術|Atlassian OpsGenie、Terraform、CodeBuild|
@@ -218,7 +244,7 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 ### Atlassian Statuspageの導入・改善・運用
 |||
 |---|-----|
-|期間|2021年03月～|
+|期間|2021年03月～2021年09月(以降運用)|
 |職種|SRE|
 |チーム|1人|
 |使用技術|Atlassian Statuspage、Lambda、Amazon API Gateway、Amazon SQS、Amazon DynamoDB、AWS CodeBuild、Amazon Elastic Container Registry、AWS CloudFormation|
