@@ -95,10 +95,20 @@ SREとしてサービスの改善活動をやっていきたい
 |---|-----|
 |会社名|[GMOペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)|
 |待遇：期間|正社員： 2020年8月〜在職中|
-|職種|クラウドアーキテクト、インフラエンジニア、SRE|
+|職種|クラウドアーキテクト、インフラエンジニア、SRE、AWS運用管理担当|
 |使用技術 サーバー|RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat、ActiveDirectory、WSUS|
 |使用技術 クラウド|AWS、Azure、NewRelic、Statuspage、OpsGenie|
 |使用技術 言語|Python、NodeJs|
+
+### クラウドアーキテクトとしての業務概要
+* サービスのクラウドインフラ構成の設計及びレビュー
+* オンプレミス環境とクラウド間の連携等の設計及びレビュー
+* 導入クラウドサービスの選定、管理
+
+### インフラエンジニアとしての業務概要
+* Windowsサーバー及びLinuxサーバーの構築、管理、運用
+* 担当サービスのAWSインフラの構築、管理、運用
+
 
 ### SREとしての業務概要
 * CI/CD環境の整備、導入支援
@@ -108,11 +118,15 @@ SREとしてサービスの改善活動をやっていきたい
 * Statuspageの導入・改善・運用（APIGW-Lambda-DynamoDBでアラート中継API構築）
 * ElasticStackでのSIME基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)
     * ログ量月間数TBのログ基盤でした。シャード数適正化などのリソース問題の解決など。
+
+
 ### AWS運用管理担当としての業務概要
 * 既存の社内ID管理基盤と連携してのAWS権限付与運用の開発運用
 * 社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkinsなど)
 * 各サービスのAWSインフラの設計・構築・運用(Cloudformation)
 * 社内クラウド勉強会の運営
+* AWS管理用ツール等の作成とDevOps
+* AWSコスト及びセキュリティ検出事項の対応及び横展開、アプリチームへ啓蒙
 
 ***
 
