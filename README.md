@@ -59,6 +59,7 @@ SREとしてサービスの改善活動をやっていきたい
     * Next.js
         * 個人ブログの作成で使用。
     * Vue(独学)
+    * Svelte
     * jQuery
 * CSS
     * bootstrap
@@ -69,11 +70,11 @@ SREとしてサービスの改善活動をやっていきたい
 
 ### OS
 * Windows
-    * 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server、2013server
+    * 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server、2013server、2016server
 * Linux
     * Ubuntu(自宅サーバー・WSL等で利用)
-        * 8.04 ~ 21.04
-    * CentOS
+        * 8.04 ~ 22.04
+    * CentOS（RHEL及びAmazonLinuxも）
         * 6 ~ 8
     * Kali Linux
         * 脆弱性診断時に使用
@@ -94,12 +95,13 @@ SREとしてサービスの改善活動をやっていきたい
 |---|-----|
 |会社名|[GMOペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)|
 |待遇：期間|正社員： 2020年8月〜在職中|
-|職種|インフラエンジニア、SREエンジニア|
-|使用技術 サーバー|RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat|
+|職種|クラウドアーキテクト、インフラエンジニア、SRE|
+|使用技術 サーバー|RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat、ActiveDirectory、WSUS|
 |使用技術 クラウド|AWS、Azure、NewRelic、Statuspage、OpsGenie|
 |使用技術 言語|Python、NodeJs|
 
 ### SREとしての業務概要
+* CI/CD環境の整備、導入支援
 * NewRelicの導入・管理・運用・改善(ansibleで構成管理・Terraformでダッシュボード等のコード管理)
     * SLO・SLA等の計測や見える化・アラート設定で早期対応化など。
 * OpsGenieの導入・管理・運用・改善（競合調査～選定から対応）
