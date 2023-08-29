@@ -26,15 +26,20 @@ SREとしてサービスの改善活動をやっていきたい
 * 英語
     * あやしい
 
-### 経験言語 / IT
+### 経験言語/技術 / IT
 * Java(Android)
 * Kotlin
 * PHP
 * JavaScript
-* Go(REST API Server作る程度)
-* Python(数ファイル構成のスクリプトを書く程度＋Djangoチュートリアル程度)
-* Ruby(数ファイル構成のスクリプトを書く程度＋Ruby on Railsチュートリアル程度)
-* TypeScript(JS使うプロジェクトで使った程度)
+* Go(スクリプト作成やREST API Server作る程度)
+* Python(数ファイル構成のスクリプトを書く程度＋Djangoで個人開発)
+* Ruby(数ファイル構成のスクリプトを書く程度＋Ruby on Railsで個人開発)
+* TypeScript
+* Cloudformation
+* Terraform
+* Ansible
+* Docker
+* Jenkins
 
 ### フレームワーク使用経験
 * PHP
@@ -73,11 +78,13 @@ SREとしてサービスの改善活動をやっていきたい
     * 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server、2013server、2016server
 * Linux
     * Ubuntu(自宅サーバー・WSL等で利用)
-        * 8.04 ~ 22.04
+        * 8.04 ~ 23.04
     * CentOS（RHEL及びAmazonLinuxも）
-        * 6 ~ 8
+        * 6 ~ 9
     * Kali Linux
         * 脆弱性診断時に使用
+    * alpine
+        * Dockerで利用
         
 ## 資格
 * ネットワークスペシャリスト(2019年10月) 
@@ -118,6 +125,11 @@ SREとしてサービスの改善活動をやっていきたい
 * Statuspageの導入・改善・運用（APIGW-Lambda-DynamoDBでアラート中継API構築）
 * ElasticStackでのSIME基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)
     * ログ量月間数TBのログ基盤でした。シャード数適正化などのリソース問題の解決など。
+* Github Enterprise Serverの全社導入・改善・運用
+    * GitBucet,SVN,Backlog git,codecommitが部署ごとに導入されソースコード管理が統一されていなかった環境から統一する対応全般
+    * Ci環境をCodebuild、Jenkinsがバラバラに使用されていた環境からGithub Actionsへ統一する対応全般
+    * Github Enterprise Serverの管理
+    * Github Actions Self Hosted Runnerの管理
 
 
 ### AWS運用管理担当としての業務概要
@@ -195,12 +207,21 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |---|-----|
 |期間|2023年03月～|
 |職種|クラウドアーキテクト|
+Glue,Athena,QuickSight
 
 ### Github Enterprise導入
 |||
 |---|-----|
-|期間|2022年08月～|
-|職種|SRE|
+|期間|2023年04月～12月|
+|職種|SRE・インフラエンジニア|
+|使用技術|Terraform、Ansible、Github Actions、LDAP|
+#### 概要
+GitBucet,SVN,Backlog git,codecommitが部署ごとに導入されソースコード管理が統一されていなかった状況でCI/CD環境の整備と合わせ改善することになり対応しました。
+競合となるGitLabやBitBucketと比較検討の上Githubに選定。
+Ci/CD環境についてもCodebuild、Jenkinsが部署ごとにバラバラに使用されていた状況からGithubへの統合で移行支援や問題解決を行いました。 Actionsへ統一する事となり移行支援や問題解決を行いました。
+その上でGithub Actions Self Hosted Runnerへの処理集中により性能劣化、Runnerの共用による各種問題が想定されたためTerraformを使用してRunnerはオートスケールし、ジョブ毎に別々のインスタンスを新規に割り当てる仕組みを構築し、かつスポットインスタンスを活用することによりコストの低減も達成しました。
+運用については会社として必要なセキュリティ等の設定を各Organizationに強制し適切に権限管理を行うためにTerraformで管理することとし、Organizationの追加や変更についてはPull requestベースでの対応とすることで、透明性と運用負荷の低減及び品質向上をしました。
+
 
 ### 社内AD統合
 |||
@@ -209,13 +230,18 @@ CI/CDを自分で導入し自動テスト・自動デプロイなどの環境構
 |職種|インフラエンジニア|
 #### 概要
 歴史的経緯により社内ADと別環境で構築されていたクラウド用のAWS SimpleADを廃止し、AWSにADを新設の上社内ADと接続しユーザー管理を一元管理としたもの。
+以後AWS側にAD情報が連携出来るようになったため、各種認証にADの利用拡大を行う事ができました。
 
 ### オンプレ環境へのCI/CD環境の構築・運用・改善
 |||
 |---|-----|
 |期間|2022年06月～|
 |職種|SRE|
-
+|使用技術|AWS DirectConnect、CodeBuild、CodeDeploy|
+AWS向けのリリースはCodeDeployによるブルーグリーンデプロイの普及など改善が進んでいましたが、オンプレミス環境へのリリースは旧態然とした手続きと仕組みで手作業が横行しており改善が必要な状態でありました。
+そこでオンプレミス環境とDirectConnect接続した閉域のAWS環境を構築しCodeBuildにより開発環境から自動的にリソースをサーバーにデプロイ出来るようにしました。
+業界上厳密な権限管理、変更管理が要求されたためこのような構成を作りました。
+この環境を作成したことによりオンプレミス環境のCI/CDを進められるようになり、自動化を推進できました。
 
 ### CDNの冗長化対応
 |||
