@@ -66,6 +66,8 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
     - 業務アプリ開発
 - Ruby
   - Ruby on Rails(独学)
+- Golang
+  - 業務アプリ開発
 
 ### OS
 
@@ -73,9 +75,9 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
   - 95、98、ME、XP、Vista、8、8.1、10、2003server、2008server、2013server、2016server
 - Linux
   - Ubuntu(自宅サーバー・WSL 等で利用)
-    - 8.04 ~ 23.04
+    - 8.04 ~ 24.04
   - CentOS（RHEL 及び AmazonLinux も）
-    - 6 ~ 9
+    - 6 ~ ８
   - Kali Linux
     - 脆弱性診断時に使用
   - alpine
@@ -100,16 +102,17 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
 | ----------------- | ----------------------------------------------------------------------------------------------------------- |
 | 会社名            | [GMO ペイメントゲートウェイ株式会社](https://www.gmo-pg.com/)                                               |
 | 待遇：期間        | 正社員： 2020 年 8 月〜在職中                                                                               |
-| 職種              | クラウドアーキテクト、インフラエンジニア、SRE、AWS 運用管理担当                                             |
-| 使用技術 サーバー | RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat、ActiveDirectory、WSUS |
+| 職種              | クラウドアーキテクト、インフラエンジニア、SRE、AWS 運用管理担当、CCoE                                             |
+| 使用技術 サーバー | RHEL、Docker、Terraform、Ansible、Jenkins、ElasticSearch、LogStash、Kibana、filebeat、ActiveDirectory、WSUS、Django、CloudFormation、AWS CDK |
 | 使用技術 クラウド | AWS、Azure、NewRelic、Statuspage、OpsGenie                                                                  |
-| 使用技術 言語     | Python、NodeJs                                                                                              |
+| 使用技術 言語     | Python、NodeJs、Golang                                                                                              |
 
 ### クラウドアーキテクトとしての業務概要
 
 - サービスのクラウドインフラ構成の設計及びレビュー
 - オンプレミス環境とクラウド間の連携等の設計及びレビュー
 - 導入クラウドサービスの選定、管理
+- AI学習基盤の構築及び運用支援
 
 ### インフラエンジニアとしての業務概要
 
@@ -130,8 +133,9 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
   - Ci 環境を Codebuild、Jenkins がバラバラに使用されていた環境から Github Actions へ統一する対応全般
   - Github Enterprise Server の管理
   - Github Actions Self Hosted Runner の管理
+- Forkeysの計測などの開発生産性の計測及び可視化
 
-### AWS 運用管理担当としての業務概要
+### AWS 運用管理担当及びCCoEとしての業務概要
 
 - 既存の社内 ID 管理基盤と連携しての AWS 権限付与運用の開発運用
 - 社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkins など)
