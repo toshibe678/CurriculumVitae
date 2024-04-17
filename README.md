@@ -122,8 +122,14 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
 ### SRE としての業務概要
 
 - CI/CD 環境の整備、導入支援
+  - AWSとオンプレミスのハイブリット環境における金融関連特有のオンプレミス環境の状況を考慮しながらCI/CDの環境整備。
+    - Jenkins
+    - AWS Codebuild
+    - AWS CodePipeline
+    - Github Actions
 - NewRelic の導入・管理・運用・改善(ansible で構成管理・Terraform でダッシュボード等のコード管理)
   - SLO・SLA 等の計測や見える化・アラート設定で早期対応化など。
+  - 社内への横展開支援
 - OpsGenie の導入・管理・運用・改善（競合調査～選定から対応）
 - Statuspage の導入・改善・運用（APIGW-Lambda-DynamoDB でアラート中継 API 構築）
 - ElasticStack での SIME 基盤の管理・運用・改善(filebeat、LogStash、ElasticSearch、Kibana)
@@ -133,15 +139,21 @@ SRE として全社的なエンジニア組織の改善や各チームのトイ�
   - Ci 環境を Codebuild、Jenkins がバラバラに使用されていた環境から Github Actions へ統一する対応全般
   - Github Enterprise Server の管理
   - Github Actions Self Hosted Runner の管理
+- Github Enterprise Cloudの導入・運用・管理
+  - Github Copilotの導入から管理
 - Forkeysの計測などの開発生産性の計測及び可視化
+- 内製高権限管理ツールの開発改善運用（Django）
+  - xpoint(申請管理)の情報を元に各種環境(Linux、DB、Windows、AWS)に時限で高権限を付与する仕組み。
 
 ### AWS 運用管理担当及びCCoEとしての業務概要
 
 - 既存の社内 ID 管理基盤と連携しての AWS 権限付与運用の開発運用
+  - IAMスイッチロール
+  - IAM Identity Center
 - 社内の開発基盤の運用・管理・改善(Git、Confluence、Jira、Jenkins など)
-- 各サービスの AWS インフラの設計・構築・運用(Cloudformation)
+- 各サービスの AWS インフラの設計・構築・運用(Cloudformation、CDK、Terraform)
 - 社内クラウド勉強会の運営
-- AWS 管理用ツール等の作成と DevOps
+- AWS 管理用ツール等の作成と DevOps（Golang、Python）
 - AWS コスト及びセキュリティ検出事項の対応及び横展開、アプリチームへ啓蒙
 
 ---
